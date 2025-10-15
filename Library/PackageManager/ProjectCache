@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638959960140000000
-    m_Hash: 1957622668
+      ticks: 638960374740000000
+    m_Hash: 2696146722
   m_LockFileStatus:
     m_FilePath: /Users/noahbakayou/Developer/CodingProjects/UnityProjects/Cell Royale/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638959960140000000
-    m_Hash: 1844575505
+      ticks: 638960374740000000
+    m_Hash: 3325436973
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,70 @@ m_LocalPackages:
 m_ProjectPath: /Users/noahbakayou/Developer/CodingProjects/UnityProjects/Cell Royale/Packages
 m_EditorVersion: 2022.3.17f1 (4fc78088f837)
 m_ResolvedPackages:
+- packageId: com.boxqkrtm.ide.cursor@https://github.com/boxqkrtm/com.unity.ide.cursor.git
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.25
+  source: 5
+  resolvedPath: /Users/noahbakayou/Developer/CodingProjects/UnityProjects/Cell Royale/Library/PackageCache/com.boxqkrtm.ide.cursor@38fecf55e4
+  assetPath: Packages/com.boxqkrtm.ide.cursor
+  name: com.boxqkrtm.ide.cursor
+  displayName: Cursor Editor
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Cursor editor integration for supporting Cursor as code editor for
+    unity. Adds support for generating csproj files for intellisense purposes, auto
+    discovery of installations, etc.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.test-framework
+    version: 1.1.9
+  resolvedDependencies:
+  - name: com.unity.test-framework
+    version: 1.1.33
+  - name: com.unity.ext.nunit
+    version: 1.0.6
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.collab-proxy@2.10.0
   testable: 0
   isDirectDependency: 1
