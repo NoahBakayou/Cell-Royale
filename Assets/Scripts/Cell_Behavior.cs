@@ -50,6 +50,8 @@ public class Cell_Behavior : MonoBehaviour
     
     void UpdateSpeed()
     {
-        currentSpeed = baseSpeed / Mathf.Sqrt(mass);
+        // Logarithmic speed penalty - scaled down for gentler slowdown
+        // Stays mobile at very high mass values
+        currentSpeed = baseSpeed / (1f + Mathf.Log(mass) * 0.3f);
     }
 }
